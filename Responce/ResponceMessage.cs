@@ -15,7 +15,7 @@ namespace gigachat.Models
         public Usage usage { get; set; }
         public class Usage
         {
-            public int complition_tokent { get; set; }
+            public int complition_token { get; set; }
             public int prompt_tokens { get; set; }
             public int system_tokens { get; set; }
             public int total_tokens { get; set; }
